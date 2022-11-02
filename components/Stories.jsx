@@ -7,7 +7,7 @@ export default function () {
     const [storyUsers, setStoryUsers] = useState([]);
 
     useEffect(() =>{
-        const users = minifaker.array(20,(i) =>({
+        const users = minifaker.array(30,(i) =>({
 
             username: minifaker.username({locale:"en"}).toLocaleLowerCase(),
             img: `https://i.pravatar.cc/150?img=${Math.ceil(Math.random() * 70)}`,
