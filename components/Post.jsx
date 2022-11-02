@@ -16,7 +16,7 @@ export default function Post({img, userImg, caption, username, id}) {
           <img src={userImg} alt={username} 
           className="h-12 rounded-full object-cover border p-1 mr-3" 
           />
-          <p className='font-bold flex-1'>{username}</p>
+          <p className='font-bold flex-1 cursor-pointer'>{username}</p>
           <EllipsisHorizontalIcon className='h-5'/>
       </div>
 
@@ -34,7 +34,7 @@ export default function Post({img, userImg, caption, username, id}) {
 
       {/* Post Comments  */}
       <p className='p-5 truncate'>
-        <span className='font-bold mr-2'>
+        <span className='font-bold mr-2 cursor-pointer'>
           {username}
         </span>
           {caption}

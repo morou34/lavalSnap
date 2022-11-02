@@ -22,7 +22,7 @@ export default function Posts() {
         username: "James",
         userImg: "https://avatars.githubusercontent.com/u/78082985?s=400&u=bca0e4d2c7282218a9f41d808fd85d7f1a5eb8e4&v=4",
         img: "https://images.unsplash.com/photo-1641584087157-cd712948ce6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80",
-        caption: "A .Beautiful Winter Day."
+        caption: "A Beautiful Winter Day."
     }
 ]
     return (

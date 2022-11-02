@@ -8,4 +8,9 @@
     {
         @apply h-7 hover:scale-125 transition-transform duration-200 ease-out cursor-pointer  
     }
+
+    .blue_btn
+    {
+        @apply hover:scale-105 transition-transform duration-100 ease-out cursor-pointer
+    }
 }
